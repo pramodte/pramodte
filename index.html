@@ -1,4 +1,259 @@
-<div class="home-section">
-    <img src="microsoft-certified-expert-badge.svg" alt="Microsoft Certified Expert" width="128" height="128" style="display:inline-block;">
-    <img src="azureadmin.png" alt="Azure Admin" width="128" height="128" style="display:inline-block;">
-</div>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pramod Thalakulam</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">Pramod Thalakulam</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION-->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--</p><img src="azureadmin.png" style="width:128px;height:128px;"> </p>-->
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <!--<a class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">-->
+              <!--<i data-feather="facebook"></i>-->
+          <!--</a>-->
+          <!--<a class="icon-link w3-text-sand w3-hover-text-amber" href="#instagram" target="_blank">-->
+             <!--<i data-feather="instagram"></i>-->
+          <!--</a>-->
+          <!--<a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank">-->
+             <!--<i data-feather="twitter"></i>-->
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/pramodte/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        <!--</div>
+        <!--CV DOWNLOAD BUTTON-->
+        <!--<div class="w3-container w3-padding-16">-->
+          <!--<a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">-->
+            <!--<i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>-->
+            <!--<span class="w3-margin-left download-text">DOWNLOAD CV</span>-->
+          <!--</a>-->
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">Pramod Thalakulam</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"Arise! Awake! And stop not until the goal is reached."</p>
+            <h1>Pramod Thalakulam</h2>
+            <h2>Cloud Expert</h3>
+            <div class="row">
+              <div class="column">
+                <img src="microsoft-certified-expert-badge.svg" style="width:128px;height:128px;">
+                <img src="azureadmin.png" style="width:128px;height:128px;">              
+                </div>
+            <!--<div class="column">
+            <!--<img src="vmware_cert.png" style="width:128px;height:128px;">
+          <!--</div>
+          <!--<div class="column">-->
+          <!--<img src="img_mountains.jpg" alt="Mountains" style="width:100%">-->
+          <!--</div>-->
+            </div>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+           <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              Results-driven IT professional with over 15 years of experience specializing in Azure Cloud services, 
+              IT procurement, system migrations, and team management. Proven expertise in designing, implementing, 
+              and managing cloud-based solutions, driving large-scale IT projects, and optimizing procurement processes 
+              to align with business objectives. Adept at leading cross-functional teams, managing end-to-end migrations, 
+              and delivering seamless transitions to cloud environments.
+            </p>
+            <p class=""> 
+              Possess a strong background in stakeholder collaboration, vendor management, and strategic planning, 
+              with a demonstrated ability to meet deadlines and improve operational efficiency. Known for excellent 
+              problem-solving skills, a focus on continuous improvement, and empowering teams to achieve peak performance. 
+            </p>
+            <!-- <p class=""> 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+               Nam porttitor sollicitudin efficitur. 
+               Integer posuere odio vel ullamcorper euismod. 
+               Aliquam sit amet nulla tortor. 
+               Integer vehicula nunc et condimentum feugiat. 
+               Aenean tempor, dolor in pharetra euismod, lacus eros suscipit massa, in aliquet risus orci non leo.
+            </p> -->
+          </div> 
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 class="w3-border-amber">EMPLOYMENT HISTORY</h3>
+              <div class="">
+                <h4>IT Operations Manager at CTG India Pvt Ltd</h4>
+                <p>Coimbatore, Tamilnadu</p>
+                <p>2021 - Current</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Responsible for On Prem and Cloud Infrastructure.</li>
+                  <!--<li>Built relations with the online community</li>-->
+                  <!--<li>Implemented social media strategies to increase engagement and followers</li>-->
+                </ul>
+              </div>
+              <div class="">
+                <h4>Lead engineer at Impiger Technologies Pvt Ltd</h4>
+                <p>Coimbatore, Tamilnadu</p>
+                <p>2015 - 2021</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Responsible for On Prem and Cloud Infrastructure.</li>
+                  <!--<li>Built relations with the online community</li>-->
+                  <!--<li>Implemented social media strategies to increase engagement and followers</li>-->
+                </ul>
+              </div>
+              <div class="">
+                <h4>System Administrator at Webtek</h4>
+                <p>Coimbatore, Tamilnadu</p>
+                <p>2014 - 2015 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Responsible for Office 365, Windows Workloads, Sharepoint and Cloud Infrastructure</li>
+                  <!--<li>Managed social media campaigns for various social media platforms to align with marketing strategies</li>-->
+                  <!--<li>Monitored and provided feedback on engagement/conversation via social media channels to leadership</li>-->
+                </ul>
+              </div>
+              <div class="">
+                <h4>Application Support Engineer at Orion India Systems Pvt Ltd.</h4>
+                <p>Kochi, Kerala</p>
+                <p>2010 - 2014 </p> 
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Responsible for Hyper V and VMware Infrastructure for Application Deployments.</li>
+                  <!--<li>Monitored, tracked and reported on feedback and online reviews</li>--?
+                  <!--<li>Provided engaging text, image and video content for all social media and professional accounts</li>-->
+                </ul>
+              </div>
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">EDUCATION</h3>
+                <h4>Master of Business Administration (MBA) - General | Pondicherry University</h4>
+                <p>2016 - 2018 </p>
+                <h4>Bachelor of Commerce | University of Calicut</h4>
+                <p>2001 - 2004 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">SKILLS</h3>
+              <!--Certifications-->
+              <h4>Certifications</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Microsoft Certified: Azure Administrator Associate </li>
+                <li>VMware Certified Professional 6 - Data Center Virtualization  </li>
+                <li>VMware Certified Professional 6 – Desktop and Mobility </li>
+                <li>MCTS - Server Virtualization with Windows Server Hyper-V and System Center </li>
+                <li>ITIL v3 Foundation </li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Key skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Microsoft Azure, Microsoft Office 365, Azure Entra ID</li>
+                  <li>Azure Cloud Infrastructure and Services</li>
+                  <li>IT Procurement & Vendor Management</li>
+                  <li>System Migrations (On-prem to Cloud, Cloud to Cloud)</li>
+                  <li>Team Leadership & People Management</li>  
+                  <li>Process Optimization & Cost Management</li>    
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love travel in my free time</li>
+                  <li>I like to watch youtube</li>
+                </ul>
+            </div>
+
+            <!--REFERENCE SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">REFERENCES</h3>
+              <h4>Please contact me for references</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li> </li>
+                <li> </li>
+              </ul>
+              <h4> </h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li></li>
+                <li></li>
+              </ul>
+            </div>            
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Pramod Thalakulam</p>
+              <p>Adress: Kerala, India</p>
+              <p>Phone number: +91 9544399444</p>
+              <p>E-mail: admin@pramodte.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2024 - Pramod Thalakulam</p>
+           <!-- <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p> -->
+          <!-- <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> --> 
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
